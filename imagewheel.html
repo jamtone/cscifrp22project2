@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./imagewheel.css">
+    <!-- <link rel="stylesheet" href="/navigationBar/g22navbar.css"> -->
+    <title>Group22 CSCI Project2 Spring 2024 - Top 5 Movies Image Wheel</title>
+</head>
+<body>
+    <div class="nav nav-black"> 
+        <div class="nav nav-red">
+            <div class="nav nav-white">
+               <button class="nav-btn close-btn">
+                X
+               </button> 
+               <a href="/navigationBar/g22navbar.html">
+                <img src="/webwise_streamers_logo.png" alt="logo" class="logo">
+                </a>
+               
+               <ul class="list">
+                <li><a href="/navigationBar/g22navbar.html">Random Movie</a></li>
+                <li><a href="/navigationBar/moviematrix/moviematrix.html">The Movie DataBase</a></li>
+                <li><a href="#">Top 5 Movies</a></li> 
+                <li><a href="#">Login</a></li>
+                    <ul>
+                       
+                        <li><a href="#">Payment</a></li>
+                    </ul> 
+                <li><a href="#">Support</a>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="../support/contactus.html" target="_self">Contact Us</a></li>
+
+                </ul>
+                </li>  
+               </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel"> 
+    <div class="image-container" id="imgs">
+        <!--Put image tags in here-->
+        <img src="./civilwar.png" alt="first movie" />
+        <img src="./zillakong.png" alt="second movie" />
+        <img src="./rebelmoon.png" alt="third movie" />
+        <img src="./ghostbusters.png" alt="fourth movie" />
+        <img src="./kunfupand.png" alt="fifth movie" />
+    </div> <!--This DIV is end of the image Carousel-->
+    <!--Create buttons for previous next for the image wheel-->
+    <div class="buttons-container">
+        <button id="left" class="btn"> Prev </button>
+        <button id="right" class="btn"> Next </button>
+    </div>
+    </div>
+
+
+
+<script src="./imagewheel.js"> </script> 
+<!-- <script src="/navigationBar/g22navbar.js"></script> -->
+</body>
+</html>

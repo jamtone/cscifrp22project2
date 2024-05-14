@@ -1,0 +1,58 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-content: center;
+    height:100vh;
+    margin:0;
+    justify-content:space-around;
+}
+
+
+img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover; /*makes object images fit right*/
+}
+
+/*carousel class wraps around all the images*/
+.carousel {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);  /*transparency is o.3*/
+    height: 530px; /*height accounts for buttons and image*/
+    width: 300px;
+    overflow: hidden; /*Keeps next image from showing*/
+}
+
+.image-container {
+    display: flex; /*puts images in a horizonal flex row*/
+    /*Move image along the x axis using transform translateX*/
+    transform: translateX(); /*initial value to move image along x axis is zero, use js to move it 500 pixels over*/
+    transition: transform 0.5s ease-in-out; /*transition period duration is o.5 seconds*/
+}
+
+.buttons-container {
+    display: flex;   /*Each button will be a flext item*/
+    justify-content: space-between; /*moves each button along the horizontal and space between puts button on each side of image */
+}
+
+.btn{
+    background-color: rgb(119, 71, 167);
+    color: #fff;
+    border: none;
+    padding: 0.5rem; /*rem is a multipler of root html element (deafult 16 pixels) where 16 *.5 = 8 pixels*/
+    cursor: pointer;
+    width: 49.5%;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn:focus{
+    outline: none;
+}

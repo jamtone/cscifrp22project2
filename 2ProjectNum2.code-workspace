@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "NavigationBar"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "2ProjectNum2"
+	}
+}

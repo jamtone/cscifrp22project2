@@ -1,0 +1,66 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Modern, readable font */
+    color: #fff; /* White text color for readability */
+    background-color: #000; /* Black background */
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Centers text horizontally */
+  }
+  
+  /* Container Styling - If using a specific container */
+  .container {
+    width: 90%; /* Increase width for more space */
+    max-width: 1200px; /* Larger maximum width allows text to expand */
+    margin: 0 auto; /* Centers the container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally in a flex container */
+  }
+  
+  /* Heading Styles */
+  h1, h2 {
+    color: #d00; /* Red color for headings */
+    margin: 20px 0 10px; /* Increase top and bottom margin for more space */
+  }
+  
+  h1 {
+    font-size: 2.8em; /* Slightly larger for prominence */
+  }
+  
+  h2 {
+    font-size: 2em; /* Slightly larger for clarity */
+  }
+  
+  /* Strong tag within paragraph for questions */
+  p strong {
+    color: #fff; /* Keeps strong text white for better contrast */
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 1.2em;
+    line-height: 1.8; /* Increased line height for better readability */
+    color: #fff; /* Keeps normal paragraph text white */
+    max-width: 1000px; /* Increased maximum width for paragraphs */
+    margin: 10px auto 20px; /* Increased bottom margin for more space */
+  }
+  
+  /* Link styling */
+  a {
+    color: #d00; /* Red color for links */
+    text-decoration: none; /* No underline */
+  }
+  
+  a:hover, a:focus {
+    text-decoration: underline; /* Underline on hover/focus for better accessibility */
+  }
+  
+/* Styling for the question elements */
+.question {
+  border: 2px solid red; /* Adds a red border */
+  padding: 8px; /* Adds padding for visual comfort */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+  margin: 10px 0; /* Adds vertical spacing */
+  border-radius: 10px; /* Adds rounded corners */
+}
